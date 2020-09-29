@@ -1,0 +1,56 @@
+ <!-- <body>
+  <header>
+     
+      <h1>BRAND</h1> 
+    <nav>
+      <ul class="nav-area">
+        <li><a href="">Home</a></li>
+        <li><a routerLink="dashboard">Dashboard</a></li>
+        <li><a routerLink="profile">Profile</a></li>
+        <li><a routerLink="services">Services</a></li>
+
+        
+      </ul>
+    </nav>
+    <a routerLink="login" class="btn-area">Login</a>
+      <button (click)="myclick()"class="btn-areas">Log Out</button>   
+
+  </header>
+  <router-outlet></router-outlet>
+</body>  -->
+ <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container">
+
+
+  <a href="#" class="navbar-brand">Eclick</a>
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav">
+          <a routerLink="home" class="nav-item nav-link active">Home</a>
+         
+          
+
+          <a routerLink="dash" class="nav-item nav-link active">Dashboard</a>
+          <a href="aboutus" class="nav-item nav-link active">AboutUs</a>
+          <a routerLink="services" class="nav-item nav-link active" tabindex="-1">Contact Us</a>
+          <a routerLink="signup" class="nav-item nav-link active">SignUp</a>
+
+      </div>
+      <div class="navbar-nav ml-auto">
+           <!-- <a href="#" class="nav-item nav-link">Login</a>  -->
+           <a routerLink="login" class="btn-area">Login</a>
+      </div>
+     <div class="button">
+      <button type="button" class="btn btn-danger" (click)="onsubmit()">Log Out</button>
+    </div>
+
+  </div>
+</div>
+  
+
+</nav>
+<router-outlet></router-outlet> 
+<!-- <app-addressform></app-addressform> -->

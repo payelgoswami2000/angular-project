@@ -1,0 +1,78 @@
+ <!-- <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="login">
+       
+        <h1>Login</h1>
+        <form (ngSubmit)='loginUser()' [formGroup]='regisForm'>
+            <input formControlName='email'  class="input-box"  type="text" placeholder="Enter Email" /><br> 
+            <div *ngIf="regisForm.get('email').hasError('required') && regisForm.get('email').touched"> 
+                 Email is required
+        </div>
+        <input formControlName='password' class="input-box"  type="text" placeholder="Enter Password" /><br>
+        <div *ngIf="regisForm.get('password').hasError('required') && regisForm.get('password').touched"> 
+        Password is required
+        </div>
+
+
+       
+        
+        <input type="submit" class="button" value="sign In">
+        
+        <p>Don't have account?<a href="signup">SignUp</a></p>
+        </form>
+        
+
+    </div>
+
+
+
+
+
+</body>
+  -->
+
+
+<body>
+
+  <div class="login">
+       
+    <h1>Login</h1>
+   <form (ngSubmit)='loginUser()' [formGroup]='regisForm'>
+     <input formControlName='email'  class="input-box" input type="text" placeholder="Enter Email" /><br> 
+     <div *ngIf="regisForm.get('email').hasError('required') && regisForm.get('email').touched"> 
+          Email is required
+ </div>
+ 
+ <input formControlName='password' class="input-box" input  type="text" placeholder="Enter Password" /><br>
+ <div *ngIf="regisForm.get('password').hasError('required') && regisForm.get('password').touched"> 
+ Password is required
+ </div>
+ <p><span><input type="checkbox">Agree with the terms of services</span></p>
+ 
+ <input type="submit" class="button" value="Login">
+  <p>Don't have account?<a href="signup">SignUp</a></p> 
+ 
+ <!-- <p class="or">or</p> -->
+ <!-- <button type="submit" class="button" (click)="myclick()">Sign Up</button> -->
+
+
+
+ 
+ 
+ 
+</form>
+</div> 
+</body>
+
+
+
+
+
+
+
+
+
+

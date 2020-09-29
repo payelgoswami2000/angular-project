@@ -1,0 +1,111 @@
+/* .body{
+    font-family: 'roboto',sans-serif;
+     background-image: url("../../assets/eee.jpg");
+     display: flex;
+     
+    
+
+} */
+body
+{
+
+border:20px;
+background-image:url("../../assets/eee.jpg");
+background-size:cover;
+width: 100%;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    left:0;
+    width: 250px;
+    height: 100%;
+    background: #042331bd;
+    /* margin-top: 50%; */
+
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background:#042331a1;
+    user-select: none;
+    font-family: cursive;
+
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 23px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom:1px solid black;
+    font-family: cursive;
+    transition: .4s
+}
+  ul li:hover a{
+               padding-left: 50px;
+    
+}
+#check{
+    display: none;
+
+}
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+
+}
+label #btn{
+    left: 40px;
+    font: 25px;
+    font-size: 35px;
+    color: red;
+}
+
+section{
+   
+    background-position: center;
+    background-size:cover ;
+    height: 100vh;
+}
+sidebar ul li{
+    color:rgba(230,230,230,0.9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+ul li a{
+    text-decoration:none;
+    color:rgba(10, 10, 10, 0.9);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition:0.6s ease;
+}
+ul li:hover{
+    background-color:rgb(156, 39, 84);
+				color:#000;
+}
+ul li.active {
+    background-color:rgba(156, 47, 39, 0.616);
+            color:#000;
+}
+
+
+
+
+
+
+
+

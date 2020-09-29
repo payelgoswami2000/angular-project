@@ -1,0 +1,29 @@
+<body>
+<div class="container">
+
+  <div class="row">
+  
+  <div *ngFor="let product of productt">
+  
+  <div class="col-12">
+  
+  <div class="card">
+
+  <img src="../../../assets/{{product.image}}" class="img">
+  <h1>{{product.name}}</h1>
+  <!-- <p class="price"> &#8377;{{product.price}}</p> -->
+  
+  
+  <!-- <p>{{product.display}}</p> -->
+   <p> <a routerLink="../productdetails/{{product.id}}" class="btn btn-primary">Details</a></p> 
+
+  <!-- <form #form=ngForm (ngSubmit)="delete(form)" > -->
+  <!-- <input type="hidden" ngModel name='productid' [(ngModel)]='product._id'> -->
+  <button class="btn btn-primary" type="submit" (click)="m()">Add To Cart</button>
+  <!-- </form> -->
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</body>

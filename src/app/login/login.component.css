@@ -1,0 +1,276 @@
+/* *{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+     background-image: url("../../assets/ooo.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    
+} */
+  /* .body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("../../assets/ooo.jpg");
+    width: 100%;
+
+   
+    background-size: cover;
+    background-position:center;
+
+}
+ 
+
+ .login{
+    width: 380px;
+    height: 450px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    background:  -webkit-linear-gradient(left, #7579ff, #b224ef);
+    
+      padding: 20px;
+margin: 8% auto 0;
+text-align: center;
+background-position: center;
+
+margin-bottom: 50px;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 100px;
+margin-top: 10%;
+
+}
+.login h1{
+    color:black;
+    margin-bottom: 30px;
+}
+.login input[type="text"],.login input[type="password"]{
+    display: block;
+    color:brown;
+    margin:20px auto;
+    padding: 10px 14px;
+    text-align: center;
+    
+    width: 250px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+    transition: 0.9s;
+}
+.login input[type="text"],.login input[type="password"]:focus{
+    border-left:40px solid black;
+    }
+ .login input[type="submit"]{
+    color:blue;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20Px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: violet;
+    margin-bottom:60px;
+} 
+.login input[type="submit"]:hover{
+	background:wheat;
+    opacity: 0,7;
+} 
+.a{
+    text-decoration: none;
+    color:red;
+}
+.hr{
+    margin-top: 20px;
+    width:80%;
+}
+.or{
+    background: #fff;
+    margin:-19;
+} 
+.login button[type="submit"]{
+    color:blue;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20Px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: violet;
+    margin-bottom:90px; */
+
+
+
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+        body{
+        font-family: sans-serif;
+       background-image: url("../../assets/ooo.jpg");
+        background-size: cover;
+        background-position:center;
+         width: 100%;
+        height: 100vh;
+        /* margin-top: 1%; */
+         
+
+    
+    
+    }
+    .login{
+       
+        
+        width: 400px;
+        height: 520px;
+        box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        background:-webkit-linear-gradient(top,rgba(255, 192, 213, 0.678),#04233159);
+        
+          padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    background-position: center;
+    
+    margin-bottom: 100px;
+    /* margin-right: 50px; */
+    border-top-left-radius: 100px;
+     border-bottom-right-radius: 100px;
+      margin-top: 10%;
+    transform: translate(-50%,-50%);
+     margin:0;
+    padding: 0;  
+    position: relative;
+    top: 350px;
+    left:50%
+    
+    }
+    
+    
+        
+    
+    
+     .login input[type="submit"]{
+        color:blue;
+        width: 50%;
+        padding: 10px;
+        border-radius: 20Px;
+        font-size: 20px;
+        margin: 10px 0;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: violet;
+        margin-bottom:60px;
+    } 
+    
+    
+    
+    .login h1{
+        color:black;
+        margin-bottom: 20px;
+        font-family: cursive;
+        font-size: 30px;
+    }
+.input-box{
+        
+        padding: 10px;
+        margin: 10px 0;
+        width: 100%;
+        border:1px solid #999;
+        outline: none;
+        display: block;
+        color:brown;
+        margin:20px auto;
+        padding: 10px 14px;
+        text-align: center;
+        
+       
+        background: none;
+        border: 2px solid black;
+        border-radius: 15px;
+        
+        transition: 0.9s;
+    }
+    .input-box:focus{
+        border-left:40px solid black;
+        }
+        .login input[type="button"]{
+        color:blue;
+        width: 50%;
+        padding: 10px;
+        border-radius: 20Px;
+        font-size: 15px;
+        margin: 10px 0;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color:palevioletred;
+    }
+     button:hover{
+        background:peru;
+        opacity: 0,7;
+    }
+    a{
+        text-decoration: none;
+        color:red;
+    }
+    hr{
+        margin-top: 20px;
+        width:80%;
+    }
+    .or{
+        background: #fff;
+        margin-top:1%;
+        color: crimson;
+        font-size: 20px;
+    }  
+     /* .login input[type="submit"]{
+        color:blue;
+        width: 50%;
+        padding: 10px;
+        border-radius: 20Px;
+        font-size: 15px;
+        margin: 10px 0;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color:palevioletred;
+    }  */
+    .login input[type="text"],.login input[type="password"]{
+        display: block;
+        color:crimson;
+        margin:20px auto;
+        padding: 10px 14px;
+        text-align: center;
+        
+        width: 250px;
+        background: none;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 20px;
+        transition: 0.9s;
+    } 
+    .login input[type="text"],.login input[type="password"]:focus{
+        border-left:40px solid rgba(0, 0, 0, 0.466);
+        }   
+    
+    
+    .p,a{
+        margin-bottom: 50px;
+        color:red;
+        font-size: 25px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 20px;
+        color: crimson;
+    }
+  
